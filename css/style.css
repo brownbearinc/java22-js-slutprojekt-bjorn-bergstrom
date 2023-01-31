@@ -1,0 +1,47 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    height: 200rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    background-color: #cccccc;
+    background-image: linear-gradient(rgb(0, 174, 200), rgb(0, 252, 172));
+}
+
+header {
+    padding: 3rem;
+    background-color: rgba(71, 71, 71, 0.538);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+header label,
+button {
+    margin-left: 10px;
+}
+
+main {
+    padding-bottom: 4rem;
+    margin: 2rem;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#div img {
+    margin: 1rem;
+    cursor: pointer;
+}

@@ -78,7 +78,7 @@ function addUrlToFetch() {
 
             } else if (error == 'TypeError: NetworkError when attempting to fetch resource.') {
 
-                div.innerHTML = `<h1>:-( Couldn't add images due to a network error.</h1>`
+                div.innerHTML = `<h1>:-( Unable to load images due to a network error.</h1>`
 
             } else {
                 div.innerHTML = `<h1>:-( Something went wrong, please try again later.</h1>`

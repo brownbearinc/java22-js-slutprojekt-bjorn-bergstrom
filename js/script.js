@@ -86,6 +86,7 @@ function addUrlToFetch() {
         })
 }
 
+// Get data from API & create img url 
 function createImgUrl(info) {
 
     for (let i = 0; i < amount; i++) {
